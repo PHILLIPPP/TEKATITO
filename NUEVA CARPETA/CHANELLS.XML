@@ -1,4 +1,20 @@
-﻿<channels>
+﻿
+<item>
+<title>          [COLOR white]Donaciones por [COLOR skyblue]PayPal:[/COLOR] [COLOR white]swapr7@gmail.com[/COLOR][/COLOR]</title>
+<link></link>
+</item>	
+
+<item>
+<title>                             [COLOR skyblue][B]PHILLIP [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]</title>
+<link></link><thumbnail></thumbnail><fanart></fanart>
+</item>
+
+<item>
+<title>                   [COLOR yellow]Actualizado 29/10/2015 @ 2:00 PM  (PHILLIP7)[/COLOR]        </title>
+<link></link>
+</item>
+
+<channels>
 <channel>
 <name>[COLOR lime] • [COLOR deepskyblue]CANALES PERUANOS [/COLOR][COLOR magenta]  PHILLIP [/COLOR] </name>
 <thumbnail>http://cde.elcomercio.pe/66/ima/0/0/3/0/6/306728.jpg</thumbnail>
@@ -75,3 +91,11 @@
 
 
 
+
+<item>
+<title>[COLOR gray]Si te Gusta la Lista Considera hacer una DONACION, para apoyarme y seguirla actualizando.[/COLOR]</title>
+<link></link><thumbnail></thumbnail><fanart></fanart>
+</item>	
+
+
+</items>
