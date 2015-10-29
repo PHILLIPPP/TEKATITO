@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1,CINELATINO
-http://31.220.41.111:80/LiveEdgeTesting/CineLatinoSD/playlist.m3u8?token=
 #EXTINF:-1,ESTRELLAS_HD
 http://200.76.77.237/LIVE/H01/CANAL102/PROFILE05.m3u8?=%2F.ts
 #EXTINF:-1,FOROTV_HD
@@ -253,7 +251,7 @@ http://www.jdmsociety.net/x/x.m3u8?&cm=981
 http://www.jdmsociety.net/x/x.m3u8?cm=981
 #EXTINF:-1, TVGloboInternacionl
 http://www.jdmsociety.net/x/x.m3u8?cm=981
-#EXTINF:-1, DiscoveryenEspÃ±ol
+#EXTINF:-1, DiscoveryenEspñol
 http://www.jdmsociety.net/x/x.m3u8?cm=3531
 #EXTINF:-1, DiscoveryTeater
 http://www.jdmsociety.net/x/x.m3u8?cm=3798
@@ -263,7 +261,7 @@ http://www.jdmsociety.net/x/x.m3u8?cm=3529
 http://www.jdmsociety.net/x/x.m3u8?cm=252
 #EXTINF:-1, H2Latinomerica
 http://www.jdmsociety.net/x/x.m3u8?cm=297
-#EXTINF:-1, HistoryenEspaÃ±ol
+#EXTINF:-1, HistoryenEspañol
 http://www.jdmsociety.net/x/x.m3u8?cm=3704
 #EXTINF:-1, NationalGeographicLatinoamerica
 http://www.jdmsociety.net/x/x.m3u8?cm=395
@@ -283,7 +281,7 @@ http://www.jdmsociety.net/x/x.m3u8?cm=2505
 http://www.jdmsociety.net/x/x.m3u8?cm=475
 #EXTINF:-1, FoxSports3Latinoamerica
 http://www.jdmsociety.net/x/x.m3u8?cm=3806
-#EXTINF:-1, BeinSportsenEspaÃ±ol
+#EXTINF:-1, BeinSportsenEspañol
 http://www.jdmsociety.net/x/x.m3u8?cm=2527
 #EXTINF:-1, UFCNetworkLatinoamerica
 http://www.jdmsociety.net/x/x.m3u8?cm=1047
@@ -373,7 +371,7 @@ http://www.jdmsociety.net/x/x.m3u8?cm=1039
 http://www.jdmsociety.net/x/x.m3u8?cm=1459
 #EXTINF:-1, LifetimeLtinomeric
 http://www.jdmsociety.net/x/x.m3u8?cm=423
-#EXTINF:-1, CNNEnEspÃ±ol
+#EXTINF:-1, CNNEnEspñol
 http://www.jdmsociety.net/x/x.m3u8?cm=1855
 #EXTINF:-1, ElFinncieroloomer
 http://www.jdmsociety.net/x/x.m3u8?cm=2823
