@@ -1,0 +1,43 @@
+﻿<channels>
+<channel>
+<name>[COLOR lime] • [COLOR deepskyblue]CANALES PERUANOS [/COLOR][COLOR magenta]  (magellan)[/COLOR] </name>
+<thumbnail>http://cde.elcomercio.pe/66/ima/0/0/3/0/6/306728.jpg</thumbnail>
+<fanart>http://cde.elcomercio.pe/66/ima/0/0/3/0/6/306728.jpg</fanart>
+</subitem>
+</item>
+<item>  
+<title>[COLOR=yellow][B][I] LATINA TV [/I][/B][/COLOR]</title>
+<link>http://ooyalahd2-f.akamaihd.net/i/latinalim_delivery@128959/master.m3u8</link>
+<thumbnail>http://lh6.googleusercontent.com/-BOMwWTc0wwE/VL2W4Nb0NGI/AAAAAAAABI8/eJnl69gH1wM/s300/latina-tv-peru.png</thumbnail>
+</item>
+<item>  
+<item>  
+<title>[COLOR=yellow][B][I] AMERICA TV HD [/I][/B][/COLOR]</title>
+<link>http://ooyalahd2-f.akamaihd.net/i/atv02_delivery@25405/index_1728_av-p.m3u8</link>
+<thumbnail>http://americatv.e3.pe/ima/0/0/0/2/0/20342.jpg</thumbnail>
+</item>
+<item>  
+<title>[COLOR=yellow][B][I] ATV HD [/I][/B][/COLOR]</title>
+<link>http://ooyalahd2-f.akamaihd.net/i/latinalim_delivery@128959/master.m3u8</link>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQffPQvbDw9ANhvv_8L49RDU11L8WA7SAOGoA5bWWywlYhQisVl</thumbnail>
+</item>
+<item>  
+<title>[COLOR=yellow][B][I] WILLAX TV  [/I][/B][/COLOR]</title>
+<link>http://m.mediastream.pe/vv_willax/livestream/.m3u8?wowzasessionid=140141688</link>
+<thumbnail>http://bitacorapc.com/tv/images/willax-television.jpg</thumbnail>
+</item>
+<item>
+<title>[COLOR=blue][B][I] CMD HD  [/I][/B][/COLOR]</title>
+<link>rtmp://$doregex[get-ip]/live/ playpath=frecuencia221?id=20460$doregex[pk] conn=S:OK swfUrl=http://www.streamifyplayer.com/resources/scripts/eplayer.swf pageUrl=http://www.streamifyplayer.com live=1 timeout=20</link>
+<regex>
+<name>get-ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.streamifyplayer.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>pk</name>
+<expres>ea=(.*)'</expres>
+<page>http://www.streamifyplayer.com/embedplayer/frecuencia221/1/620/400</page>
+<referer>http://www.streamifyplayer.com</referer>
+<thumbnail>http://www.gmcweb.net/gustavo/buttons/cmd_hd.png</thumbnail>
+</item>
