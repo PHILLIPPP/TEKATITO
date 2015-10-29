@@ -43,6 +43,35 @@
 <thumbnail>http://www.gmcweb.net/gustavo/buttons/cmd_hd.png</thumbnail>
 </regex>
 <item>  
+<item>
+			<title>[COLOR=yellow][B][I] Katty HD [/I][/B][/COLOR]</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_katyhd live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_katyhd$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
 
 
 
