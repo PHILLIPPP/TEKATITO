@@ -27,17 +27,21 @@
 <thumbnail>http://bitacorapc.com/tv/images/willax-television.jpg</thumbnail>
 </item>
 <item>
-<title>[COLOR=blue][B][I] CMD HD  [/I][/B][/COLOR]</title>
-<link>rtmp://$doregex[get-ip]/live/ playpath=frecuencia221?id=20460$doregex[pk] conn=S:OK swfUrl=http://www.streamifyplayer.com/resources/scripts/eplayer.swf pageUrl=http://www.streamifyplayer.com live=1 timeout=20</link>
+<title>CMD HD </title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
 <regex>
-<name>get-ip</name>
+<name>ip</name>
 <expres>redirect=(.*)</expres>
-<page>http://www.streamifyplayer.com:1935/loadbalancer</page>
+<page>http://www.liveflash.tv:1935/loadbalancer</page>
 </regex>
 <regex>
-<name>pk</name>
-<expres>ea=(.*)'</expres>
-<page>http://www.streamifyplayer.com/embedplayer/frecuencia221/1/620/400</page>
-<referer>http://www.streamifyplayer.com</referer>
-<thumbnail>http://www.gmcweb.net/gustavo/buttons/cmd_hd.png</thumbnail>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.liveflashplayer.net/embedplayer/cmdya2/1/620/382</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.liveflash.tv</referer>
+</regex>
 </item>
+
+
+
