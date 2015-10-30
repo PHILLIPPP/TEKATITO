@@ -1,84 +1,47 @@
-﻿<channels>
-<channel>
-<name>[COLOR lime] • [COLOR deepskyblue]CANALES PERUANOS [/COLOR][COLOR magenta]  PHILLIP [/COLOR] </name>
-<thumbnail>http://cde.elcomercio.pe/66/ima/0/0/3/0/6/306728.jpg</thumbnail>
-<fanart>http://cde.elcomercio.pe/66/ima/0/0/3/0/6/306728.jpg</fanart>
-</subitem>
-</item>
-<item>  
-<title>[COLOR=yellow][B][I] LATINA TV [/I][/B][/COLOR]</title>
-<link>http://ooyalahd2-f.akamaihd.net/i/latinalim_delivery@128959/master.m3u8</link>
-<thumbnail>http://lh6.googleusercontent.com/-BOMwWTc0wwE/VL2W4Nb0NGI/AAAAAAAABI8/eJnl69gH1wM/s300/latina-tv-peru.png</thumbnail>
-</item>
-<item>  
-<item>  
-<title>[COLOR=yellow][B][I] AMERICA TV HD [/I][/B][/COLOR]</title>
-<link>http://ooyalahd2-f.akamaihd.net/i/atv02_delivery@25405/index_1728_av-p.m3u8</link>
-<thumbnail>http://americatv.e3.pe/ima/0/0/0/2/0/20342.jpg</thumbnail>
-</item>
-<item>  
-<title>[COLOR=yellow][B][I] ATV HD [/I][/B][/COLOR]</title>
-<link>http://ooyalahd2-f.akamaihd.net/i/latinalim_delivery@128959/master.m3u8</link>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQffPQvbDw9ANhvv_8L49RDU11L8WA7SAOGoA5bWWywlYhQisVl</thumbnail>
-</item>
-<item>  
-<title>[COLOR=yellow][B][I] WILLAX TV  [/I][/B][/COLOR]</title>
-<link>http://m.mediastream.pe/vv_willax/livestream/.m3u8?wowzasessionid=140141688</link>
-<thumbnail>http://bitacorapc.com/tv/images/willax-television.jpg</thumbnail>
-</item>
+﻿<item>
+<title>          [COLOR green][B]Donaciones por [COLOR red]PayPal:[/COLOR] [COLOR green][/B]xola@gmail.com[/COLOR][/COLOR]</title>
+<link>http://bit.ly/PHILLIPPP</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
+</item>	
+
+
 <item>
-<item>
-<title>[COLOR= blue][B] CMD HD [/B][/COLOR]</title>
-<link>rtmp://$doregex[get-ip]/stream/ playpath=cmdya2?id=20022$doregex[pk] conn=S:OK swfUrl=http://www.liveflashplayer.net/resources/scripts/fplayer.swf live=1 pageUrl=http://www.liveflashplayer.net/ timeout=20</link>
-<regex>
-<name>get-ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.liveflashplayer.net:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>pk</name>
-<expres>ea=(.*)'</expres>
-<page>http://www.liveflashplayer.net/embedplayer/cmdya2/1/620/382</page>
-<referer>http://www.liveflashplayer.net</referer>
-<thumbnail>http://www.gmcweb.net/gustavo/buttons/cmd_hd.png</thumbnail>
-</regex>
-<item>  
-<item>
-			<title>[COLOR=yellow][B][I] Katty HD [/I][/B][/COLOR]</title>
-			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_katyhd live=1 timeout=20</link>
-			<regex>
-			<name>clearCode</name>
-			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
-			<page></page>
-			</regex>
-			<regex>
-			<name>getencoded</name>
-			<expres>:mvnkey-(.*)</expres>
-			<page>$doregex[getUrl]</page>
-			</regex>
-			<regex>
-			<name>getserver</name>
-			<expres>(.*?);</expres>
-			<page>$doregex[getUrl]</page>
-			</regex>
-			<regex>
-			<name>getUrl</name>
-			<expres>(.*)</expres>
-			<page>http://mvn.vaughnsoft.net/video/edge/live_katyhd$doregex[gettime]-$doregex[gettime].33434</page>
-			</regex>
-			<regex>
-			<name>gettime</name>
-			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
-			<page></page>
-			</regex>
-			</item>
+<title>                             [COLOR orange][B]CANALES [/COLOR][/B][COLOR yellow]PHILLIPPP[/COLOR]</title>
+<link>http://bit.ly/PHILLIPPP</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
+</item>
+
 
 
 
 
 <item>
-<title>[COLOR gray]Si te Gusta la Lista Considera hacer una DONACION, para apoyarme y seguirla actualizando.[/COLOR]</title>
-<link></link><thumbnail></thumbnail><fanart></fanart>
+<title>                   [COLOR lime]   ACTUALIZACION: [COLOR lime]29[/COLOR]  OCTUBRE  2015[/COLOR]      </title>
+<link>http://bit.ly/PHILLIPPP</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR lime] • [COLOR blue][B]CANALES PERUANOS [/COLOR][/B][COLOR magenta]  (PHILLIP)[/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
+<externallink>http://pastebin.com/raw.php?i=0jATaxPY</externallink>
+</item>
+<item>
+<title>[COLOR lime] • [COLOR blue][B]CANALES MX [/COLOR][/B][COLOR magenta]  (PHILLIP)[/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
+<externallink>http://pastebin.com/raw.php?i=snkqxBQY</externallink>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR gray]Si te Gusta la Lista Considera hacer una DONACION, para seguirla actualizando.[/COLOR]</title>
+<link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
 </item>	
 
 
