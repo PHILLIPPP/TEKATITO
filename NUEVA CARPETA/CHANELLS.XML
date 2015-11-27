@@ -14,7 +14,7 @@
 
 
 <item>
-<title>                   [COLOR lime]   ACTUALIZACION: [COLOR lime]29[/COLOR]  OCTUBRE  2015[/COLOR]      </title>
+<title>                   [COLOR lime]   ACTUALIZACION: [COLOR lime]27[/COLOR]  NOVIEMBRE  2015[/COLOR]      </title>
 <link>http://bit.ly/PHILLIPPP</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
 </item>
 
@@ -38,17 +38,9 @@
 <externallink>http://pastebin.com/raw.php?i=0jATaxPY</externallink>
 </item>
 <item>
-<title>[COLOR lime] • [COLOR blue][B]VOD [/COLOR][/B][COLOR magenta]  (PHILLIP)[/COLOR] </title>
-<link>http://streamin.to/qj8pcf9swga7</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
-</item>
-
-<item>
-<title>Fox HD</title>
-<link>http://lb.iptvserver.tv:8080/redirect/LiveEdge/FOXHDLA/playlist.m3u8?token=$doregex[tok]</link>
-<regex><name>tok</name><expres>token=(.*)</expres>
-<page>http://adryanlist.x10.mx/nescafe.php?cm=3947</page>
-<referer>http://adryan.host.sk</referer><setcookie>programa=rosadintv</setcookie></regex>
-<thumbnail>http://iptv.latino-webtv.com/logos/fox.png</thumbnail>
+<title>[COLOR lime] • [COLOR blue][B]VOD PELICULAS[/COLOR][/B][COLOR magenta]  (PHILLIP)[/COLOR] </title>
+<link>>http://ignorame</link><thumbnail>http://i.imgur.com/IYAxxVk.jpg</thumbnail><fanart>http://i.imgur.com/GqQcQ7B.jpg</fanart>
+<externallink>http://pastebin.com/raw.php?i=bsqkWWmx</externallink>´
 </item>
 
 
